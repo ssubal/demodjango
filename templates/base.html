@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <title>ADF:)</title>
+</head>
+<body>
+   {% block content %}
+     replace me
+   {% endblock %}
+   <nav>
+   <ul>
+     <a href = "{% url 'Home' %}">Home</a>
+     <br><a href = "{% url 'apps1' %}">Apps</a>
+     <br><a href = "{% url 'contacts' %}">Contact</a>
+     <br><a href = "{% url 'about' %}">About</a>
+     <br><a href = "{% url 'faqs' %}">FAQs</a>
+   </ul>
+</nav>
+
+   
+</body>
+</html>
